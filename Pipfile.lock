@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "065e240e0b440b2f6559568a8466af0e82ea5afe940c0349fa13361242317618"
+            "sha256": "1415f1379cc188e190e08373ac6a13d35104de5a1102767f89da933aad6a482b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -106,6 +106,14 @@
             "markers": "python_version < '3.11'",
             "version": "==1.2.0"
         },
+        "execnet": {
+            "hashes": [
+                "sha256:88256416ae766bc9e8895c76a87928c0012183da3cc4fc18016e6f050e025f41",
+                "sha256:cc59bc4423742fd71ad227122eb0dd44db51efb3dc4095b45ac9a08c770096af"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==2.0.2"
+        },
         "h11": {
             "hashes": [
                 "sha256:8f19fbbe99e72420ff35c00b27a34cb9937e902a8b810e2c88300c6f0a3b699d",
@@ -178,6 +186,15 @@
             "markers": "python_version >= '3.8'",
             "version": "==8.1.1"
         },
+        "pytest-xdist": {
+            "hashes": [
+                "sha256:cbb36f3d67e0c478baa57fa4edc8843887e0f6cfc42d677530a36d7472b32d8a",
+                "sha256:d075629c7e00b611df89f490a5063944bee7a4362a5ff11c7cc7824a03dfce24"
+            ],
+            "index": "pypi",
+            "markers": "python_version >= '3.7'",
+            "version": "==3.5.0"
+        },
         "selenium": {
             "hashes": [
                 "sha256:a11f67afa8bfac6b77e148c987b33f6b14eb1cae4d352722a75de1f26e3f0ae2",
@@ -212,11 +229,11 @@
         },
         "trio": {
             "hashes": [
-                "sha256:c3bd3a4e3e3025cd9a2241eae75637c43fe0b9e88b4c97b9161a55b9e54cd72c",
-                "sha256:ffa09a74a6bf81b84f8613909fb0beaee84757450183a7a2e0b47b455c0cac5d"
+                "sha256:9b41f5993ad2c0e5f62d0acca320ec657fdb6b2a2c22b8c7aed6caf154475c4e",
+                "sha256:e6458efe29cc543e557a91e614e2b51710eba2961669329ce9c862d50c6e8e81"
             ],
             "markers": "python_version >= '3.8'",
-            "version": "==0.24.0"
+            "version": "==0.25.0"
         },
         "trio-websocket": {
             "hashes": [
